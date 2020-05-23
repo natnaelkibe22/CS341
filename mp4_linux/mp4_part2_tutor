@@ -1,0 +1,92 @@
+Script started on Tue 05 May 2020 10:53:41 AM EDT
+tuser@tutor-vserver:~$ script mp4_part1_vserver2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmp4_part1_vserver2ls[Ksudo ./charGen1exit[Kmtip -f measure.lnxls[Kgcc -o charGen1 charGen1.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp natialex@users.cs.umb.edu:cs341/mp4_linux/charGen1.* .. [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasure.* . [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+natialex@users.cs.umb.edu's password: 
+measure.c                                       0%    0     0.0KB/s   --:-- ETAmeasure.c                                     100% 2409     2.4KB/s   00:01    
+measure.lnx                                     0%    0     0.0KB/s   --:-- ETAmeasure.lnx                                   100%   22KB  21.8KB/s   00:00    
+measure.o                                       0%    0     0.0KB/s   --:-- ETAmeasure.o                                     100% 6052     5.9KB/s   00:00    
+measure.syms                                    0%    0     0.0KB/s   --:-- ETAmeasure.syms                                  100% 1533     1.5KB/s   00:00    
+tuser@tutor-vserver:~$ scp natialex@users.cs.umb.edu:cs341/mp4_linux/measure.* . [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pript mp4_part1_vserver2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pmp4_part1_vserver2ls[Ksudo ./charGen1exit[Kmtip -f measure.lnxls[Kgcc -o charGen1 charGen1.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp natialex@users.cs.umb.edu:cs341/mp4_linux/charGen1.* .. 
+natialex@users.cs.umb.edu's password: 
+charGen1.c                                      0%    0     0.0KB/s   --:-- ETAcharGen1.c                                    100% 8704     8.5KB/s   00:00    
+tuser@tutor-vserver:~$ mtip -f measure.lnx
+For command help, type ~?
+For help on args, rerun without args
+Code starts at 0x100100
+Using board # 1 
+Please type <CR> to confirm console setting: 
+Setting console dev to COM2Console: colour EGA+ 80x25
+COM1 at 0x03f8 (irq = 4) is a 16550A
+COM2 at 0x02f8 (irq = 3) is a 16550A
+
+                 Welcome to UMB Tutor for the PC
+   UMB Tutor is a 32-bit protected-mode PC debugger/downloader,
+       based on Linux, UMB Tutor for m68k, and remote gdb.
+UMB Tutor is free software and you are welcome to distribute copies
+of it under certain conditions.  There is no warranty for this program.
+The copyright and warranty provisions follow the Gnu general public
+license, available for view in gdb and elsewhere.  Full sources available.
+--bugs, suggestions, questions to eoneil@cs.umb.edu
+
+Exception 3 at EIP=00057a9b: Breakpoint
+Tutor> ~downloading measure.lnx
+
+.......Done.
+
+Download done, setting EIP to 100100.
+Tutor> go 100100
+Calling set_intr_gate (irq = 3, n = 0x23) to arm interrupt...
+Commanding PIC to interrupt CPU for irq 3 (COM2_IRQ)
+enabling receiver interrupts in UART...
+...done, entering almost-infinite loop
+
+time interval= 85630923 us for char=A
+time interval= 989517 us for char=B
+time interval= 995677 us for char=C
+time interval= 990546 us for char=D
+time interval= 1049215 us for char=E
+time interval= 996273 us for char=F
+time interval= 986234 us for char=G
+time interval= 992840 us for char=0
+time interval= 1991467 us for char=1
+time interval= 1992152 us for char=2
+time interval= 1994331 us for char=3
+time interval= 1994787 us for char=4
+time interval= 1989960 us for char=5
+time interval= 2049375 us for char=6
+time interval= 1993702 us for char=a
+time interval= 3051250 us for char=b
+time interval= 2988912 us for char=c
+time interval= 2991910 us for char=d
+time interval= 2989792 us for char=e
+time interval= 2994012 us for char=f
+time interval= 2990381 us for char=g
+time interval= 2995279 us for char=M
+time interval= 62511 us for char=N
+time interval= 61846 us for char=O
+time interval= 119205 us for char=P
+time interval= 63717 us for char=Q
+time interval= 61025 us for char=R
+time interval= 64820 us for char=S
+time interval= 67476 us for char=0
+time interval= 71280 us for char=1
+time interval= 77512 us for char=2
+time interval= 72964 us for char=3
+time interval= 69975 us for char=4
+time interval= 75713 us for char=5
+time interval= 70669 us for char=6
+time interval= 71071 us for char=m
+time interval= 89490 us for char=n
+time interval= 77405 us for char=o
+time interval= 84123 us for char=p
+time interval= 83311 us for char=q
+time interval= 83588 us for char=r
+time interval= 83769 us for char=s
+time interval= 782517962 us for char=-
+time interval= 67894 us for char=`~q 
+Quit handler: 
+killing process 3141 Leaving board #1
+tuser@tutor-vserver:~$ kd[K[Kexig[Kt
+exit
+
+Script done on Tue 05 May 2020 11:10:54 AM EDT

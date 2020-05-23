@@ -1,0 +1,48 @@
+Script started on Sun 03 May 2020 09:49:27 AM EDT
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ exitmtip -f echo.lnxscp natialex@users.cs.umb.edu:cs341/mp3_linux/echo.* .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Ksudo ./charGen
+[sudo] password for tuser: 
+sudo: ./charGen: command not found
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ sudo ./charGen
+sudo: ./charGen: command not found
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ cs[K[Ksudo ./charGen
+sudo: ./charGen: command not found
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ cs[K[Ksudo ./charGen1
+
+ +----------------------------------+
+ |        Serial Port Write         |
+ +----------------------------------+
+  ttyS1 Opened Successfully 
+  BaudRate = 9600 
+  StopBits = 1 
+  Parity   = none
+ +----------------------------------+
+ |        Time Testing              |
+ +----------------------------------+
+  measure wait time = 1000 msec using input starting character A
+  measure wait time = 2000 msec using input starting character 0
+  measure wait time = 3000 msec using input starting character a
+  measure wait time = 70 msec using input starting character M
+  measure wait time = 80 msec using input starting character 0
+  measure wait time = 90 msec using input starting character m
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ sudo ./charGen1
+
+ +----------------------------------+
+ |        Serial Port Write         |
+ +----------------------------------+
+  ttyS1 Opened Successfully 
+  BaudRate = 9600 
+  StopBits = 1 
+  Parity   = none
+ +----------------------------------+
+ |        Time Testing              |
+ +----------------------------------+
+  measure wait time = 1000 msec using input starting character A
+  measure wait time = 2000 msec using input starting character 0
+  measure wait time = 3000 msec using input starting character a
+  measure wait time = 70 msec using input starting character M
+  measure wait time = 80 msec using input starting character 0
+  measure wait time = 90 msec using input starting character m
+]0;tuser@tutor-vserver: ~tuser@tutor-vserver:~$ exit
+exit
+
+Script done on Sun 03 May 2020 09:53:38 AM EDT
